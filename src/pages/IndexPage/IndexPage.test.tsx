@@ -3,9 +3,9 @@ import { describe, expect, it } from 'vitest';
 import IndexPage from './index';
 
 describe('Index Page', () => {
-  it('should render Hi text', () => {
+  it('should render welcome text', () => {
     render(<IndexPage />);
-    const hiText = screen.getByText(/Hi/i);
-    expect(hiText).toBeInTheDocument();
+    const welcomeText = screen.getByText(/welcome/i);
+    expect(welcomeText).toBeInTheDocument();
   });
 });

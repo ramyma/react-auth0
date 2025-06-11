@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  /* biome-ignore lint/correctness/noUnknownProperty: */
+  themes: nord --default;
+}
+@plugin "@tailwindcss/typography";
